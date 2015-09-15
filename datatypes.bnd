@@ -1,0 +1,4 @@
+Export-Package:  \
+	eu.artemis.demanes.impl.datatypes,\
+	eu.artemis.demanes.impl.annotations
+Bundle-Version: 1.0.0

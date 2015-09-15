@@ -1,0 +1,14 @@
+Import-Package:  \
+	eu.artemis.demanes.datatypes,\
+	*
+Service-Component:  \
+	*
+Private-Package:  \
+	eu.artemis.demanes.lib.impl.serialization
+Bundle-Version: 1.0.0
+Bundle-Name: Java IO Serializer
+Bundle-Description: A bundle offering a serializer service for remote parameterization
+Bundle-Category: demanes, middleware, library
+Bundle-Copyright: TNO 2014
+Bundle-Vendor: TNO
+Bundle-ContactAddress: coen.vanleeuwen@tno.nl

@@ -1,0 +1,27 @@
+-runfw: org.apache.felix.framework;version='[4,5)'
+-runee: JavaSE-1.7
+-runsystemcapabilities: ${native_capability}
+
+-resolve.effective: active
+
+
+-runrequires:  \
+	osgi.identity;filter:='(osgi.identity=org.apache.felix.gogo.shell)',\
+	osgi.identity;filter:='(osgi.identity=org.apache.felix.gogo.command)',\
+	osgi.identity;filter:='(osgi.identity=eu.artemis.demanes.impl.log4jlogging)',\
+	osgi.identity;filter:='(osgi.identity=eu.artemis.demanes.impl.loggerTester)'
+	eu.artemis.demanes.demanesCoreInterface;version=latest,\
+	eu.artemis.demanes.impl.loggerTester;version=latest,\
+	eu.artemis.demanes.impl.log4jlogging;version=latest
+-runbundles:  \
+	eu.artemis.demanes.demanesCoreInterface;version=latest,\
+	eu.artemis.demanes.impl.loggerTester;version=latest,\
+	eu.artemis.demanes.impl.log4jlogging;version=latest,\
+	log4j;version='[1.2.17,1.2.18)',\
+	org.apache.felix.configadmin;version='[1.8.0,1.8.1)',\
+	org.apache.felix.gogo.command;version='[0.14.0,0.14.1)',\
+	org.apache.felix.gogo.runtime;version='[0.12.1,0.12.2)',\
+	org.apache.felix.gogo.shell;version='[0.10.0,0.10.1)',\
+	org.apache.felix.scr;version='[1.6.2,1.6.3)',\
+	osgi.enterprise;version='[4.2.0,4.2.1)',\
+	osgi.residential;version='[4.3.0,4.3.1)'

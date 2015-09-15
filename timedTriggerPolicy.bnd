@@ -1,0 +1,11 @@
+Service-Component:  \
+	*
+Private-Package:  \
+	eu.artemis.demanes.lib.impl.timedTriggerPolicy
+Bundle-Version: 1.0.0
+Bundle-Name: Timed Trigger Policy
+Bundle-Description: A triggering policy employing a static triggering period. Interval can be configured using the web interface
+Bundle-Category: demanes, middleware, library
+Bundle-Copyright: TNO 2014
+Bundle-Vendor: TNO
+Bundle-ContactAddress: coen.vanleeuwen@tno.nl

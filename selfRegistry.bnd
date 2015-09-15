@@ -1,0 +1,5 @@
+Private-Package:  \
+	eu.artemis.demanes.lib.impl.selfregistry
+Bundle-Version: 0.0.1
+Service-Component:  \
+	*

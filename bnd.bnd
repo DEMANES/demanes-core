@@ -1,0 +1,10 @@
+-buildpath:  \
+	${junit},\
+	osgi.core;version='[4.3,5)',\
+	osgi.cmpn,\
+	biz.aQute.bnd.annotation,\
+	eu.artemis.demanes.demanesCoreInterface;version=latest,\
+	eu.artemis.demanes.demanesLibInterface;version=latest,\
+	log4j,\
+	org.ops4j.pax.logging.pax-logging-api
+-sub: *.bnd
